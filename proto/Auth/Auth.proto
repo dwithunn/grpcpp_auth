@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option go_package = "../../apigateway/proto_pkgs/AuthService";
+
+package AuthService;
+
+service services {
+  rpc Login(Credentials) returns (Auth_Response);
+}
+
+message Credentials {
+  string id = 1;
+  string password = 2;
+}
+
+message Auth_Response {
+  string token = 1;
+}
