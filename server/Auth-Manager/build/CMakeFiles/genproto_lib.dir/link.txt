@@ -1,2 +1,2 @@
-/bin/ar qc libgenproto_lib.a CMakeFiles/genproto_lib.dir/proto/Auth.grpc.pb.cc.o CMakeFiles/genproto_lib.dir/proto/Auth.pb.cc.o
-/bin/ranlib libgenproto_lib.a
+/usr/bin/ar qc libgenproto_lib.a CMakeFiles/genproto_lib.dir/proto/Auth.grpc.pb.cc.o CMakeFiles/genproto_lib.dir/proto/Auth.pb.cc.o
+/usr/bin/ranlib libgenproto_lib.a

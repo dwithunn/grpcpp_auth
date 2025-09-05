@@ -1,7 +1,7 @@
 #include "service/listener.hpp"
 
-listener::listener(std::string &svr_adr,std::shared_ptr<grpc::Service> service, std::string service_name) 
-  : service_address_(svr_adr), service_(service)
+listener::listener(const std::string &svr_adr,const std::shared_ptr<grpc::Service> service, std::string service_name) 
+  : service_address_(svr_adr), service_(service), service_name_(service_name)
 {
   this->interceptor_creator.emplace_back(std::make_unique<LoggerInterceptorFactory>());
 }

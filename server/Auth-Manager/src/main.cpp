@@ -1,12 +1,17 @@
 #include <iostream>
+#include <memory>
 #include <service/listener.hpp>
+#include <service/auth.hpp>
 
 int main()
 {
-  std::unique_ptr<listener> listen;
   try
   {
-    listen->Start();
+    auto service = std::make_shared<Authenticator::Login_Validator>();
+
+    listener server("0.0.0.0:50051", service, "AuthService");
+    server.Start();
+
   }
   catch(const std::exception& e)
   {

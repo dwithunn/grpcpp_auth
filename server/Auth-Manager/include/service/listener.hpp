@@ -17,7 +17,7 @@ private:
   std::vector<std::unique_ptr<grpc::experimental::ServerInterceptorFactoryInterface>> interceptor_creator;
 
 public:
-  explicit listener(std::string &svr_adr, std::shared_ptr<grpc::Service> service = nullptr, std::string service_name = "AuthManager");
+  explicit listener(const std::string &svr_adr,const std::shared_ptr<grpc::Service> service = nullptr,std::string service_name = "AuthManager");
   void Start();
   void Stop();
 

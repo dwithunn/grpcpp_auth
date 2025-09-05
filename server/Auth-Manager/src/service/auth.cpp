@@ -1,17 +1,13 @@
 #include <service/auth.hpp>
 
-std::unique_ptr<db::Auth_Methods> database;
-
-Status Authenticator::Login_Validator::Login(
-  grpc::ServerContext* context,
-  const AuthService::Credentials* request,
-  AuthService::Auth_Response* response)
+Status Authenticator::Login_Validator::Login(grpc::ServerContext* context, const AuthService::Credentials* request, AuthService::Auth_Response* response)
 {
+  db::Auth_Methods database;
   credential_id = request->id();
   password = request->password();
 
-  if(!database->check_pswd(credential_id, password)){
-    std::cerr << "Incorrect password";
+  if(!database.check_pswd(credential_id, password)){
+    std::cerr << "Incorrect password" << std::endl;
     return grpc::Status(grpc::StatusCode::UNAUTHENTICATED, "Invalid credentials");
   }
 
@@ -28,7 +24,8 @@ Status Authenticator::Login_Validator::Login(
 
 bool Authenticator::Login_Validator::validate()
 {
-  return database->user_exists(this->credential_id);
+  db::Auth_Methods database;
+  return database.user_exists(this->credential_id);
 }
 
 

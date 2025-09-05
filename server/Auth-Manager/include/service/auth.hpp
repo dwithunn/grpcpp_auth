@@ -23,9 +23,8 @@ namespace Authenticator
     std::string password;
 
   public:
-    //Login_Validator();
+    Login_Validator() = default;
     virtual Status Login(grpc::ServerContext* context, const AuthService::Credentials* request, AuthService::Auth_Response* response) override;
-    
     bool validate();
     std::string IssueJwt(std::string& credential_id);
     std::time_t SetTimeStamp();
