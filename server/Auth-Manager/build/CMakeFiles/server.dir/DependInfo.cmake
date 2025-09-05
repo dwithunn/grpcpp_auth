@@ -8,11 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/dwith/grpcpp_auth/server/Auth-Manager/src/db/auth_fncs.cpp" "CMakeFiles/server.dir/src/db/auth_fncs.cpp.o" "gcc" "CMakeFiles/server.dir/src/db/auth_fncs.cpp.o.d"
-  "/home/dwith/grpcpp_auth/server/Auth-Manager/src/db/db_main.cpp" "CMakeFiles/server.dir/src/db/db_main.cpp.o" "gcc" "CMakeFiles/server.dir/src/db/db_main.cpp.o.d"
-  "/home/dwith/grpcpp_auth/server/Auth-Manager/src/main.cpp" "CMakeFiles/server.dir/src/main.cpp.o" "gcc" "CMakeFiles/server.dir/src/main.cpp.o.d"
-  "/home/dwith/grpcpp_auth/server/Auth-Manager/src/service/auth.cpp" "CMakeFiles/server.dir/src/service/auth.cpp.o" "gcc" "CMakeFiles/server.dir/src/service/auth.cpp.o.d"
-  "/home/dwith/grpcpp_auth/server/Auth-Manager/src/service/listener.cpp" "CMakeFiles/server.dir/src/service/listener.cpp.o" "gcc" "CMakeFiles/server.dir/src/service/listener.cpp.o.d"
+  "/home/dwithun/Documents/miscelleneous/authenticator-grpc/server/Auth-Manager/src/db/auth_fncs.cpp" "CMakeFiles/server.dir/src/db/auth_fncs.cpp.o" "gcc" "CMakeFiles/server.dir/src/db/auth_fncs.cpp.o.d"
+  "/home/dwithun/Documents/miscelleneous/authenticator-grpc/server/Auth-Manager/src/db/db_main.cpp" "CMakeFiles/server.dir/src/db/db_main.cpp.o" "gcc" "CMakeFiles/server.dir/src/db/db_main.cpp.o.d"
+  "/home/dwithun/Documents/miscelleneous/authenticator-grpc/server/Auth-Manager/src/main.cpp" "CMakeFiles/server.dir/src/main.cpp.o" "gcc" "CMakeFiles/server.dir/src/main.cpp.o.d"
+  "/home/dwithun/Documents/miscelleneous/authenticator-grpc/server/Auth-Manager/src/service/auth.cpp" "CMakeFiles/server.dir/src/service/auth.cpp.o" "gcc" "CMakeFiles/server.dir/src/service/auth.cpp.o.d"
+  "/home/dwithun/Documents/miscelleneous/authenticator-grpc/server/Auth-Manager/src/service/listener.cpp" "CMakeFiles/server.dir/src/service/listener.cpp.o" "gcc" "CMakeFiles/server.dir/src/service/listener.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

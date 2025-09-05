@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/dwith/grpcpp_auth/server/Auth-Manager/proto/Auth.grpc.pb.cc" "CMakeFiles/genproto_lib.dir/proto/Auth.grpc.pb.cc.o" "gcc" "CMakeFiles/genproto_lib.dir/proto/Auth.grpc.pb.cc.o.d"
-  "/home/dwith/grpcpp_auth/server/Auth-Manager/proto/Auth.pb.cc" "CMakeFiles/genproto_lib.dir/proto/Auth.pb.cc.o" "gcc" "CMakeFiles/genproto_lib.dir/proto/Auth.pb.cc.o.d"
+  "/home/dwithun/Documents/miscelleneous/authenticator-grpc/server/Auth-Manager/proto/Auth.grpc.pb.cc" "CMakeFiles/genproto_lib.dir/proto/Auth.grpc.pb.cc.o" "gcc" "CMakeFiles/genproto_lib.dir/proto/Auth.grpc.pb.cc.o.d"
+  "/home/dwithun/Documents/miscelleneous/authenticator-grpc/server/Auth-Manager/proto/Auth.pb.cc" "CMakeFiles/genproto_lib.dir/proto/Auth.pb.cc.o" "gcc" "CMakeFiles/genproto_lib.dir/proto/Auth.pb.cc.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
